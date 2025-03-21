@@ -1,12 +1,12 @@
 body {
-    font-family:"Ceveat Brush";
+    font-family:"Raleway";
     background-color: #596968;
     color: #e88451;
 
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family:"Raleway";
+    font-family:"Caveat Brush";
     text-align: center;
     font-size: 40pt;
 }
@@ -33,4 +33,8 @@ header {
 
 #hero img {
     width: 300px;
+}
+
+#links a {
+    color: #e88451;
 }
