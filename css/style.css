@@ -36,10 +36,9 @@ header {
 }
 
 /* Links */
-#links a {
+#links div {
     color: #e88451;
     font-family:"Raleway";
-    font-size: 20pt;
 }
 
 /* Gallery */
@@ -114,6 +113,10 @@ header {
     }
 
     #reviews div {
+        font-size: 20pt;
+    }
+
+    #links div {
         font-size: 20pt;
     }
 }
