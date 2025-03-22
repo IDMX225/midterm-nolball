@@ -35,6 +35,85 @@ header {
     width: 300px;
 }
 
+/* Links */
 #links a {
     color: #e88451;
+    font-family:"Raleway";
+    font-size: 25pt;
+}
+
+/* Gallery */
+
+#gallery {
+    border: 2px solid #267fde;
+}
+
+#gallery img  {
+    max-width: 100%;
+}
+
+#gallery figure {
+    text-align: center;
+}
+
+#gallery figcaption {
+    font-family:"Raleway";
+}
+
+/* Reviews */
+
+#reviews div {
+    border: 2px solid #267fde;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+/* tablet size */
+
+@media screen and (min-width: 60em) {
+    figure {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
+    
+    figcaption {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 2rem;
+        margin-left: 1rem;
+    }
+
+    figure img {
+        width: 100%;
+    }
+
+    #reviews div {
+        font-size: 10pt;
+    }
+}
+
+/* large screen size */
+
+@media screen and (min-width: 100em) {
+    #gallery {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    hr {
+        display: none;
+    }
+
+    #gallery h2 {
+        grid-column: 1 / -1;
+    }
+
+    figure {
+        display: block;
+    }
+
+    #reviews div {
+        font-size: 20pt;
+    }
 }
